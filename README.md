@@ -54,8 +54,13 @@ The Diversity & Inclusion table field's names and their description:
 
 ## Data Cleaning
 Data Cleaning for the dataset was done in Power Query as follows:
-- Handle missing values.
-- Remove duplicates.
+- Removal of unnecessary columns:
+  
+```
+= Table.RemoveColumns(#"Changed Type1",{"Rand", "Broad region group: nationality 1", "Time in Job Level @01.07.2020", "Job Level group PRA status", "Department & JL group PRA status", "FTE group"})
+```
+
+- Handle null values: The null values that were relevant to the analysis, especially in the Performance Rating columns were replaced with 0’s because they are numeric columns.
 - Standardize data formats.
   
 ## Measures
@@ -113,39 +118,55 @@ Women Performance = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]
 Men Performance = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),'Pharma Group AG'[Gender]="male")
 ```
 ## Analysis and Visualization 
-Data visualization for the dataset was done in Microsoft Power BI Desktop, the dashboard includes four main dashboards:
-- Overview
-- New Hire
-- Turnover
-- Promotion
+Data visualization for the dataset was done in Microsoft Power BI Desktop, the dashboard includes four main pages:
+### Overview
+  
+![image](https://github.com/user-attachments/assets/6d1febb7-a4ae-4128-9bb4-12825a75af6f)
 
-![image](https://github.com/user-attachments/assets/a770ca3c-e39e-4adb-8467-f6dd31569da7)
-![image](https://github.com/user-attachments/assets/506a6867-ccf1-4321-b8f0-8c2abbafb4ca)
-![image](https://github.com/user-attachments/assets/14be0e09-869d-4abb-a211-f36a9cb285a2)
-![image](https://github.com/user-attachments/assets/b3d29453-d420-4bb0-82b4-e11cbfd32913)
+### New Hire
 
-## Key Performance Indicators and Metrics
-Overview:
-Number of employees, leavers
-Number of promotions and hiring in FY20
-Average Performance
-Age distribution
-Nationality distribution
-Job-level distribution
-Time type distribution
-About Performance:
+![image](https://github.com/user-attachments/assets/8025285b-cac9-4a07-8ccc-0d9c1a2e0e9c)
 
-Average Performance of gender, leavers
-Performance Rate distribution
-Average Performance Rate by Positions, Age, Region
-Comparison performance between leaver and non-leaver by department
-About Hiring & Promotion:
+### Turnover
+  
+![image](https://github.com/user-attachments/assets/1521553b-0f21-400c-b32f-dd47962bcd6e)
 
-Indicators of the gender balance of new hire FY20, Promotion FY21, Turnover rate
-Executive gender balance
-Average Time at the Job level
-Hiring trend and hiring distribution by nationality
-Promotion and Turnover rate FY 21
+### Promotion
+  
+![image](https://github.com/user-attachments/assets/d7d72c01-b95d-44d6-bd05-5e8fa8feb8e4)
 
-Here’s my full Power BI dashboard:
+Full Dashboard: 
 - 
+
+## Diversity and Inclusion Insights 
+
+###
+- Sales and Marketing Department favor men, proving by higher number of new hired men employees and higher number of female leavers.
+- Leadership roles show lower figure of female representation
+- 
+### Gender Distribution
+-  Gender imbalance, with 8% higher percentage of male employees than female employees.
+-  Clear gender imbalance at senior levels (Director and Executive)
+-  Except the HR department, other departments have larger number of men than women. 
+-  Except the Junior lever, other positions have larger number of men than women.
+-  Employee performance scores are almost equal for men (2.41) and women (2.42), indicating no significant gender-based performance gaps.
+### Age distribution
+- Younger employees (20-29 years old) are mostly in junior roles (74.42%), while leadership roles (Executives, Directors, and Senior Managers) are predominantly held by older employees (40+ years).
+### Hiring Practices
+- The gap between genders is gradually smaller from 2011 to 2020 
+- The hiring practices demonstrate a balanced approach with 51.52% women hires, showing a deliberate effort to promote diversity within the workforce.
+- New hired women have slightly lower average age (30.38) compared to men (33.22)
+### Turnover Rate
+- 47 employees have left the organization.
+- Higher turnover among male employees (55.32% of leavers).
+- Female leavers have higher average age (42) and shorter tenure (3 years) than male leavers.
+- Operations and Sales/Marketing departments show highest turnover.
+### Promotion
+- Positive trend in promotions for women, increasing from 22.22% in FY20 to 35.29% in FY21.
+- Higher promotion rates for women in Senior Officer positions (61% vs 39% for men in 2021).
+
+## Recommendation:
+- Address female retention issues, particularly the shorter tenure
+- Continue supporting women's advancement into executive roles
+- Expand geographical diversity, especially in underrepresented regions
+- Investigate high turnover in Operations and Sales/Marketing departments
