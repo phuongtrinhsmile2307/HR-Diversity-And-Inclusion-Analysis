@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7b454f6d-cc92-424f-b20c-0a3b76ec6e73)![image](https://github.com/user-attachments/assets/7b454f6d-cc92-424f-b20c-0a3b76ec6e73)# HR-Diversity-And-Inclusion-Analysis
+# HR-Diversity-And-Inclusion-Analysis
 ## Project Overview
 This is the 4th BI task from a virtual internship at PwC through Forage. This dashboard is prepared for HR manager to see the employees overview of hiring, leaving, performance, promotions and what's the trend of working. 
 Here is my proccess of building the Power BI Dashboard and some insights from it. 
