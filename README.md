@@ -1,4 +1,4 @@
-# HR-Diversity-And-Inclusion-Analysis
+![image](https://github.com/user-attachments/assets/7b454f6d-cc92-424f-b20c-0a3b76ec6e73)![image](https://github.com/user-attachments/assets/7b454f6d-cc92-424f-b20c-0a3b76ec6e73)# HR-Diversity-And-Inclusion-Analysis
 ## Project Overview
 This is the 4th BI task from a virtual internship at PwC through Forage. This dashboard is prepared for HR manager to see the employees overview of hiring, leaving, performance, promotions and what's the trend of working. 
 Here is my proccess of building the Power BI Dashboard and some insights from it. 
@@ -121,19 +121,19 @@ Men Performance = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),
 Data visualization for the dataset was done in Microsoft Power BI Desktop, the dashboard includes four main pages:
 ### Overview
   
-![image](https://github.com/user-attachments/assets/02c9786e-76b2-4124-a572-9342c8f326b9)
+![image](https://github.com/user-attachments/assets/19724936-a35a-44fb-8979-db5d45c5fcb9)
 
 ### New Hire
 
-![image](https://github.com/user-attachments/assets/8025285b-cac9-4a07-8ccc-0d9c1a2e0e9c)
+![image](https://github.com/user-attachments/assets/134c0045-db03-4daa-b69d-054775b5da0e)
 
 ### Turnover
   
-![image](https://github.com/user-attachments/assets/1521553b-0f21-400c-b32f-dd47962bcd6e)
+![image](https://github.com/user-attachments/assets/7ace38a8-555c-41c8-a170-48307b59af79)
 
 ### Promotion
   
-![image](https://github.com/user-attachments/assets/d7d72c01-b95d-44d6-bd05-5e8fa8feb8e4)
+![image](https://github.com/user-attachments/assets/38812c6f-2171-4ae9-99de-117078b86db1)
 
 Full Dashboard: 
 - 
