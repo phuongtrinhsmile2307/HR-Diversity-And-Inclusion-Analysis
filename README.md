@@ -135,8 +135,9 @@ Data visualization for the dataset was done in Microsoft Power BI Desktop, the d
   
 ![image](https://github.com/user-attachments/assets/38812c6f-2171-4ae9-99de-117078b86db1)
 
-Full Dashboard: 
-- 
+**Full Dashboard:**
+- [HR Diversity and Inclusion Analysis.pbix](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/blob/main/Diversity%20and%20Inclusion%20Analysis.pbix)
+- [HR Diversity and Inclusion Analysis.pdf](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/blob/main/Diversity%20and%20Inclusion%20Analysis.pdf)
 
 ## Diversity and Inclusion Insights 
 ### Gender Representation and Leadership Gap:
@@ -167,12 +168,12 @@ _→ This could limit diversity of perspective and global talent acquisition._
 - Majority of workforce is between 20-39 years
 - Very few employees in 50+ age groups
 
-## Hiring Practices:
+### Hiring Practices:
 - Positive trend in gender-balanced recruitment compared to earlier years.
 - In 2020, slightly more women (51.52%) than men (48.48%) were hired.\\\
 _→ This shows a positive trend toward gender-balanced recruitment._
 
-## Recommendations:
+## Recommendations
 - Implement structured leadership development programs specifically targeting high-potential female employees.
 - Review promotion criteria and processes to eliminate potential gender bias.
 - Conduct stay interviews and exit interviews to understand why female employees have shorter tenure.
