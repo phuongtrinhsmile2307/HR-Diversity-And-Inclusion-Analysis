@@ -121,7 +121,7 @@ Men Performance = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),
 Data visualization for the dataset was done in Microsoft Power BI Desktop, the dashboard includes four main pages:
 ### Overview
   
-![image](https://github.com/user-attachments/assets/6d1febb7-a4ae-4128-9bb4-12825a75af6f)
+![image](https://github.com/user-attachments/assets/02c9786e-76b2-4124-a572-9342c8f326b9)
 
 ### New Hire
 
@@ -139,34 +139,45 @@ Full Dashboard:
 - 
 
 ## Diversity and Inclusion Insights 
+### Gender Representation and Leadership Gap:
+- While the overall workforce is relatively balanced (59% male, 41% female), there's a significant disparity in leadership positions.
+- Only 20% of executives are female, and the percentage of women decreases as job level increases (from 51.81% at Junior Officer to 12.5% at Director level). \\\
+→ This suggests a clear "glass ceiling" issue that needs to be addressed.
+- Sales and Marketing Department might favor men, proving by higher number of new hired men employees and higher number of female leavers.
+  
+### Turnover Concerns:
+- 10.06% turnover rate with 47 leavers.
+- Female leavers have a lower average tenure (3 years) compared to male leavers (4 years).
+- Female leavers are older on average (42 years) compared to male leavers (38 years)
+- Higher turnover in Operations and Sales & Marketing departments. \\\
+_→ This might indicate potential issues with retention of experienced female talent._
 
-###
-- Sales and Marketing Department favor men, proving by higher number of new hired men employees and higher number of female leavers.
-- Leadership roles show lower figure of female representation
-- 
-### Gender Distribution
--  Gender imbalance, with 8% higher percentage of male employees than female employees.
--  Clear gender imbalance at senior levels (Director and Executive)
--  Except the HR department, other departments have larger number of men than women. 
--  Except the Junior lever, other positions have larger number of men than women.
--  Employee performance scores are almost equal for men (2.41) and women (2.42), indicating no significant gender-based performance gaps.
-### Age distribution
-- Younger employees (20-29 years old) are mostly in junior roles (74.42%), while leadership roles (Executives, Directors, and Senior Managers) are predominantly held by older employees (40+ years).
-### Hiring Practices
-- The gap between genders is gradually smaller from 2011 to 2020 
-- The hiring practices demonstrate a balanced approach with 51.52% women hires, showing a deliberate effort to promote diversity within the workforce.
-- New hired women have slightly lower average age (30.38) compared to men (33.22)
-### Turnover Rate
-- 47 employees have left the organization.
-- Higher turnover among male employees (55.32% of leavers).
-- Female leavers have higher average age (42) and shorter tenure (3 years) than male leavers.
-- Operations and Sales/Marketing departments show highest turnover.
-### Promotion
-- Positive trend in promotions for women, increasing from 22.22% in FY20 to 35.29% in FY21.
-- Higher promotion rates for women in Senior Officer positions (61% vs 39% for men in 2021).
+### Promotion Patterns:
+- There is improvement in women's promotion rates (from 22.22% in FY20 to 35.29% in FY21).
+- However, promotion rates still favor men (33 male vs 18 female promotions in 2021).
+- Sales & Marketing shows the highest number of promotions in 2021 with 17 male employees and only 2 female employees.
 
-## Recommendation:
-- Address female retention issues, particularly the shorter tenure
-- Continue supporting women's advancement into executive roles
-- Expand geographical diversity, especially in underrepresented regions
-- Investigate high turnover in Operations and Sales/Marketing departments
+### Geographical Distribution:
+- Most employees are concentrated in Switzerland (169) and Europe (120).
+- Very limited presence in Americas, Asia Pacific, and Middle East.\\\
+_→ This could limit diversity of perspective and global talent acquisition._
+
+### Age Distribution:
+- Average age is 31.97 years
+- Majority of workforce is between 20-39 years
+- Very few employees in 50+ age groups
+
+## Hiring Practices:
+- Positive trend in gender-balanced recruitment compared to earlier years.
+- In 2020, slightly more women (51.52%) than men (48.48%) were hired.\\\
+_→ This shows a positive trend toward gender-balanced recruitment._
+
+## Recommendations:
+- Implement structured leadership development programs specifically targeting high-potential female employees.
+- Review promotion criteria and processes to eliminate potential gender bias.
+- Conduct stay interviews and exit interviews to understand why female employees have shorter tenure.
+- Develop targeted retention strategies for experienced employees, especially women.
+- Consider expanding geographical presence to increase diversity.
+- Review recruitment practices to ensure age diversity.
+- Regular pay equity analysis to ensure fair compensation across gender and age groups.
+- Investigate high turnover in Operations and Sales/Marketing departments.
