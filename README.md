@@ -2,6 +2,11 @@
 ## Project Overview
 This is the 4th BI task from a virtual internship at PwC through Forage. This dashboard is prepared for HR manager to see the employees overview of hiring, leaving, performance, promotions and what's the trend of working. 
 Here is my proccess of building the Power BI Dashboard and some insights from it. 
+## Tools:
+- Microsoft Excel
+- Power Query
+- DAX
+- Microsoft Power BI
 ## Data Source
 Diversity Inclusion Dataset: The primary dataset used for this analysis is the [Diversity-Inclusion-Dataset.xlsx](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/blob/main/03%20Diversity-Inclusion-Dataset.xlsx)file.
 
