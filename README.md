@@ -1,4 +1,13 @@
 # HR-Diversity-And-Inclusion-Analysis
+![image](https://github.com/user-attachments/assets/9d61c6f9-8d95-4708-b469-4e2886c7b054)
+## Table of Content
+- [Project Overview](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#project-overview)
+- [Tools](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#tools)
+- [Data Cleaning](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#data-source)
+- [Measures](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#data-source)
+- [Analysis and Visualization ](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#analysis-and-visualization)
+- [Diversity and Inclusion Insights ](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#diversity-and-inclusion-insights)
+- [Recommendations](https://github.com/phuongtrinhsmile2307/HR-Diversity-And-Inclusion-Analysis/edit/main/README.md#recommendations)
 ## Project Overview
 This is the 4th BI task from a virtual internship at PwC through Forage. This dashboard is prepared for HR manager to see the employees overview of hiring, leaving, performance, promotions and what's the trend of working. 
 Here is my proccess of building the Power BI Dashboard and some insights from it. 
@@ -69,7 +78,7 @@ Data Cleaning for the dataset was done in Power Query as follows:
 - Standardize data formats.
   
 ## Measures
-### Leavers
+### Turnover
 - **Percentage of female employees leaved in 2020:**
 ```
 %Women Leavers = DIVIDE(CALCULATE(COUNT('Pharma Group AG'[FY20 leaver?]),'Pharma Group AG'[FY20 leaver?]="Yes",'Pharma Group AG'[Gender]="female"),[Number of Leavers])
