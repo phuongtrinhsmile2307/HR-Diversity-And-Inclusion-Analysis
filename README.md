@@ -150,7 +150,7 @@ Data visualization for the dataset was done in Microsoft Power BI Desktop, the d
 ### Gender Representation and Leadership Gap:
 - While the overall workforce is relatively balanced (59% male, 41% female), there's a significant disparity in leadership positions.
 - Only 20% of executives are female, and the percentage of women decreases as job level increases (from 51.81% at Junior Officer to 12.5% at Director level). \\\
-→ This suggests a clear "glass ceiling" issue that needs to be addressed.
+_→ This suggests a clear "glass ceiling" issue that needs to be addressed._
 - Sales and Marketing Department might favor men, proving by higher number of new hired men employees and higher number of female leavers.
   
 ### Turnover Concerns:
